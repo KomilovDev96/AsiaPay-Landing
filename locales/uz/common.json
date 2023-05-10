@@ -1,0 +1,132 @@
+{
+     "general": {
+          "login": "Kirish"
+     },
+     "navbar": {
+          "advantages": "Afzalliklar",
+          "wallet": "E-hamyon",
+          "capabilities": "Imkoniyatlar",
+          "questions": "Savollar",
+          "ru": "Rus",
+          "en": "Ing",
+          "uz": "O'z"
+     },
+     "header": {
+          "title": "Xalqaro pul o'tkazmalari",
+          "text": "Dunyoning istalgan nuqtasiga pul o'tkazishning oddiy va foydali usuli!"
+     },
+     "about": {
+          "title": "Asiapayning afzalliklari",
+          "1": {
+               "title": "Global qamrov",
+               "text": "Biz dunyoning istalgan nuqtasiga pul o'tkazamiz"
+          },
+          "2": {
+               "title": "Ruxsat etilgan to'lov",
+               "text": "O'tkazmani amalga oshirishdan oldin biz kurs, o'tkazma to'lovi va debitorlik summasini ko'rsatamiz"
+          },
+          "3": {
+               "title": "Oddiy o'tkazmalar",
+               "text": "Siz uchun qulay bo'lgan har qanday usulda pul yuboring"
+          },
+          "4": {
+               "title": "Darhol ishlov berish",
+               "text": "Pul bir necha soniya ichida oluvchining hisobiga yuboriladi"
+          },
+          "5": {
+               "title": "Bank xavfsizligi",
+               "text": "Barcha pul o'tkazmalari Visa va Mastercard tomonidan tasdiqlangan"
+          },
+          "6": {
+               "title": "Qo'llab-quvvatlash xizmati 24/7",
+               "text": "Kunning istalgan vaqtida yordam uchun biz bilan bog'lanishingiz mumkin."
+          }
+     },
+     "ewallet": {
+          "title": "Asiapay elektron hamyon",
+          "text": "Asia Pay - bu zamonaviy to'lov vositasi bo'lib, u sizga pul mablag'larini chet elga qulay va xavfsiz o'tkazish, shuningdek, undan tovarlar va xizmatlar uchun to'lash uchun foydalanish imkonini beradi.",
+          "more": "Batafsil"
+     },
+     "capabilities": {
+          "title": "Asiapay bilan mumkin",
+          "1": "Xalqaro pul oʻtkazmalarini yuborish va qabul qilish",
+          "2": "Xizmatlar uchun to'lovlarni avtomatlashtirish",
+          "3": "Xarajatlar va daromadlar statistikasini ko'ring",
+          "4": "Har bir o'tkazmada pulni tejang"
+     },
+     "safity": {
+          "title": "Sizni va pulingizni himoya qilish",
+          "text": "Har bir inson uchun ularning moliyasi to'liq xavfsiz bo'lishi juda muhim va bizning ilovamiz aynan shu xavfsizlik shaklini taqdim etadi",
+          "1": {
+               "title": "Etakchi banklarni himoya qilish",
+               "text": "Kompaniya sizning hisobingiz va pulingizni hatto eng murakkab firibgarlikdan himoya qilish uchun kechayu kunduz ishlaydi."
+          },
+          "2": {
+               "title": "Doimiy nazorat",
+               "text": "Biz sizning pulingiz xavfsizligi va Asiapay moliyaviy barqarorligi haqida qayg'uramiz."
+          },
+          "3": {
+               "title": "Maxfiylik",
+               "text": "Biz sizning shaxsiy ma'lumotlaringiz xavfsizligini ta'minlaymiz. Bizning ma'lumotlarni yig'ish, qayta ishlash va saqlash faoliyatimiz shaffofdir."
+          },
+          "4": {
+               "title": "Qo'shimcha himoya",
+               "text": "G'amxo'rlik va pulingizni ikki bosqichli autentifikatsiya qilish. Kartadagi pulingizga faqat siz kirishingiz mumkin."
+          },
+          "5": {
+               "title": "Firibgarlikka qarshi kurash",
+               "text": "Kompaniya sizning hisobingiz va pulingizni hatto eng murakkab firibgarlikdan himoya qilish uchun kechayu kunduz ishlaydi."
+          },
+          "6": {
+               "title": "Karta blokirovkasi",
+               "text": "Agar siz kartangizni yo'qotgan bo'lsangiz yoki kartangiz o'g'irlangan bo'lsa, dastur istalgan vaqtda kartani blokirovka qilish imkonini beradi."
+          }
+     },
+     "catalog": {
+          "title": "Har qanday davlat xizmati",
+          "text": "Gaz, elektr, telefon va boshqalar uchun to'lov",
+          "all": "To'liq ro'yxat",
+          "1": "Soliqlarni to'lash",
+          "2": "Elektr energiya",
+          "3": "GUBDD jarimalari",
+          "4": "Davlat hizmatlari"
+     },
+     "category": {
+          "title": "Uydan chiqmasdan turli xizmatlar uchun to'lov",
+          "all": "Barcha toifalar",
+          "1": "Internet provayderlari",
+          "2": "Sug'urta",
+          "3": "Xosting - provayderlar",
+          "4": "O'yinlar va ijtimoiy tarmoqlar",
+          "5": "Havo va temir yo'l chiptalari"
+     },
+     "manual": {
+          "title": "Endi turli xizmatlar uchun to'lov sanasi kerak emas. AutoPay buni siz uchun qiladi!",
+          "sub_title": "Avtomatik to'lov nima va uni qanday faollashtirish mumkin?",
+          "text1": "Bank mijozning roziligi bilan turli xizmatlarni o‘z vaqtida, tiyiniga aniqlik bilan to‘lash uchun pul mablag‘larini avtomatik tarzda hisobdan chiqaradi.",
+          "text2": "Avtomatik to'lov xizmatidan foydalanib, har safar protseduradan o'tmaslik uchun muayyan hisoblar uchun to'lovlar chastotasini sozlash kifoya.",
+          "sub_text": "Muhim! Ushbu xizmatdan foydalanish uchun hisobda yoki foydalanuvchining shaxsiy kabinetida kerakli miqdorda to'lov yoki pul o'tkazmasini amalga oshirish uchun mablag' bo'lishi kerak."
+     },
+     "platform": {
+          "title": "Barcha to'lovlar va o'tkazmalar bitta platformada!",
+          "text": "Istalgan qurilmadan kartalar bilan tranzaktsiyalar, xizmatlar uchun to'lovlar va pul o'tkazmalarini amalga oshiring."
+     },
+     "questions": {
+          "title": "Savollaringizga javoblar",
+          "1": {
+               "title": "Mastercard hisobimda bir nechta valyuta bo'lishi mumkinmi?",
+               "text": "Avtomatik to'lov xizmatidan foydalanib, har safar protseduradan o'tmaslik uchun muayyan hisoblar uchun to'lovlar chastotasini sozlash kifoya."
+          }
+     },
+     "footer": {
+          "support": "Qo'llab-quvvatlash telefoni:",
+          "developers": "Dasturchilar",
+          "blog": "Blog",
+          "jobs": "Ishlar",
+          "privacy": "Maxfiylik siyosati",
+          "offer": "Ommaviy taklif",
+          "license": "To'lov tashkiloti litsenziyasi",
+          "network": "Ma'lumotlar tarmog'i xizmatlari uchun litsenziya",
+          "eco": "Atrof-muhit siyosati"
+     }
+}

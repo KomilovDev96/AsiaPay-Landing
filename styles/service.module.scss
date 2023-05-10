@@ -1,0 +1,247 @@
+@import "../styles/utils/color.scss";
+
+.service {
+     h3 {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 44px;
+          text-align: center;
+          color: #000;
+          margin-bottom: 40px;
+          @media (max-width: 991px) {
+               font-size: 30px;
+               line-height: 36px;
+               margin-bottom: 35px;
+          }
+          @media (max-width: 576px) {
+               font-size: 22px;
+               line-height: 27px;
+               max-width: 285px;
+               margin: auto;
+               margin-bottom: 20px;
+          }
+     }
+     &_offers {
+          padding: 60px 0;
+          @media (max-width: 991px) {
+               padding: 40px 0;
+          }
+          @media (max-width: 576px) {
+               padding: 30px 0;
+          }
+     }
+     &_card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     &_security {
+          padding: 45px 0;
+          padding-bottom: 15px;
+          background: linear-gradient(248.03deg, #4b4d9b 2.61%, #4b4fe8 99.31%);
+          @media (max-width: 991px) {
+               padding-top: 40px;
+               padding-bottom: 10px;
+          }
+          @media (max-width: 576px) {
+               padding-top: 30px;
+          }
+     }
+}
+
+.card_image {
+     width: 135px;
+     height: 135px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 21px;
+     box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+     margin-bottom: 18px;
+     position: relative;
+     overflow: hidden;
+     &::after,
+     &::before {
+          position: absolute;
+          content: "";
+          bottom: 0;
+          right: 0;
+          z-index: -1;
+          width: 53px;
+          height: 53px;
+          border-radius: 50%;
+     }
+     &::after {
+          width: 63px;
+          background-color: rgba($color: $pink, $alpha: 0.7);
+          transform: translate(8px);
+          z-index: -2;
+     }
+     &::before {
+          background-color: rgba($color: $blue, $alpha: 0.3);
+          transform: translate(0px, 30px);
+     }
+     @media (max-width: 991px) {
+          width: 100px;
+          height: 100px;
+          padding: 33px;
+          &::after,
+          &::before {
+               height: 39px;
+               width: 39px;
+          }
+          &::before {
+               transform: translate(0, 22px);
+          }
+          &::after {
+               width: 46px;
+          }
+     }
+     @media (max-width: 991px) {
+          padding: 26px;
+          width: 80px;
+          height: 80px;
+          &::after,
+          &::before {
+               height: 32px;
+               width: 32px;
+          }
+          &::before {
+               transform: translate(0, 17px);
+          }
+          &::after {
+               width: 37px;
+          }
+     }
+}
+.card_title {
+     font-size: 18px;
+     font-weight: 400;
+     line-height: 27px;
+     text-align: center;
+     max-width: 255px;
+     color: $black;
+     @media (max-width: 991px) {
+          font-size: 14px;
+          line-height: 18px;
+     }
+}
+.security_top {
+     margin-bottom: 35px;
+     @media (max-width: 991px) {
+          margin-bottom: 25px;
+     }
+     @media (max-width: 768px) {
+          text-align: center;
+     }
+     h3 {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 44px;
+          color: white;
+          margin: 0;
+          text-align: left;
+          @media (max-width: 991px) {
+               font-size: 30px;
+               line-height: 36px;
+               text-align: left;
+          }
+          @media (max-width: 768px) {
+               text-align: center;
+               margin: auto;
+               margin-bottom: 15px;
+          }
+          @media (max-width: 576px) {
+               font-size: 22px;
+               line-height: 27px;
+          }
+     }
+     p {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 27px;
+          color: white;
+          margin: 0;
+          @media (max-width: 991px) {
+               font-size: 16px;
+               line-height: 24px;
+          }
+          @media (max-width: 576px) {
+               font-size: 14px;
+               line-height: 21px;
+               margin-bottom: 0px;
+          }
+     }
+}
+
+.security_card {
+     padding: 34px 44px;
+     padding-bottom: 0;
+     background: linear-gradient(97.5deg, #ffffff 2.05%, #d1ecff 93.37%);
+     box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+     border-radius: 9px;
+     min-height: 230px;
+     margin-bottom: 30px;
+     @media (max-width: 991px) {
+          padding: 20px;
+          padding-bottom: 30px;
+          min-height: 208px;
+     }
+     @media (max-width: 768px) {
+          min-height: unset;
+     }
+     @media (max-width: 576px) {
+          margin-bottom: 15px;
+     }
+     p {
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 24px;
+          color: $black;
+          margin-bottom: 0;
+          @media (max-width: 991px) {
+               font-size: 16px;
+               line-height: 24px;
+          }
+          @media (max-width: 576px) {
+               font-size: 14px;
+               line-height: 21px;
+          }
+     }
+}
+
+.card_top {
+     display: flex;
+     align-items: center;
+     margin-bottom: 25px;
+     @media (max-width: 991px) {
+          margin-bottom: 20px;
+     }
+     @media (max-width: 576px) {
+          margin-bottom: 14px;
+     }
+     h5 {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 24px;
+          margin-bottom: 0;
+          color: $black;
+          @media (max-width: 991px) {
+               font-size: 18px;
+               line-height: 22px;
+          }
+          @media (max-width: 576px) {
+               font-size: 16px;
+               line-height: 19px;
+          }
+     }
+}
+
+.image_wrapper {
+     height: 42px;
+     width: 42px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-right: 22px;
+}

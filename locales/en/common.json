@@ -1,0 +1,132 @@
+{
+     "general": {
+          "login": "Sign In"
+     },
+     "navbar": {
+          "advantages": "Advantages",
+          "wallet": "E-wallet",
+          "capabilities": "Capabilities",
+          "questions": "Questions",
+          "ru": "Ru",
+          "en": "En",
+          "uz": "Uz"
+     },
+     "header": {
+          "title": "International transfers",
+          "text": "A simple and profitable way to transfer money to anywhere in the world!"
+     },
+     "about": {
+          "title": "Benefits of Asiapay",
+          "1": {
+               "title": "Global Coverage",
+               "text": "We transfer money anywhere in the world"
+          },
+          "2": {
+               "title": "Fixed fee",
+               "text": "We display the rate, transfer fee and amount receivable before you make a transfer"
+          },
+          "3": {
+               "title": "Simple transfers",
+               "text": "Send money in any way convenient for you"
+          },
+          "4": {
+               "title": "Instant processing",
+               "text": "Money is sent in seconds to the recipient's account"
+          },
+          "5": {
+               "title": "Banking security",
+               "text": "All money transfers are certified by Visa and Mastercard"
+          },
+          "6": {
+               "title": "Support service 24/7",
+               "text": "You can contact us for help at any time of the day."
+          }
+     },
+     "ewallet": {
+          "title": "Asiapay e-wallet",
+          "text": "Asia Pay is a modern payment tool that allows you to conveniently and safely transfer funds abroad, also use it to pay for goods and services.",
+          "more": "More"
+     },
+     "capabilities": {
+          "title": "With Asiapay you can",
+          "1": "Send and receive international transfers",
+          "2": "Automate payments for services",
+          "3": "View expense and income statistics",
+          "4": "Save money with every transfer"
+     },
+     "safity": {
+          "title": "Protecting you and your money",
+          "text": "It is important for everyone that their finances are completely safe and this is what form of security our application provides",
+          "1": {
+               "title": "Protection of leading banks",
+               "text": "The company works around the clock to protect your account and money from even the most sophisticated fraud."
+          },
+          "2": {
+               "title": "Constant control",
+               "text": "We care about the safety of your money and the financial stability of Asiapay."
+          },
+          "3": {
+               "title": "Confidentiality",
+               "text": "We ensure the security of your personal data. Our data collection, processing and storage activities are transparent."
+          },
+          "4": {
+               "title": "Additional protection",
+               "text": "Care and two-step authentication of your money. Only you have access to your money on the card."
+          },
+          "5": {
+               "title": "Fight against scam",
+               "text": "The company works around the clock to protect your account and money from even the most sophisticated fraud."
+          },
+          "6": {
+               "title": "Card blocking",
+               "text": "If you have lost your card or your card has been stolen, the app allows you to block your card at any time."
+          }
+     },
+     "catalog": {
+          "title": "Any government service",
+          "text": "Payment for gas, electricity, phone and more",
+          "all": "All list",
+          "1": "Paying taxes",
+          "2": "Electricity",
+          "3": "GUBDD fines",
+          "4": "State duty"
+     },
+     "category": {
+          "title": "Pay for various services without leaving home",
+          "all": "All categories",
+          "1": "Internet providers",
+          "2": "Insurance",
+          "3": "Hosting - providers",
+          "4": "Games and social networks",
+          "5": "Air and railway tickets"
+     },
+     "manual": {
+          "title": "Now you do not need the date of payment for various services. Autopay will do it for you!",
+          "sub_title": "What is auto payment and how to enable it?",
+          "text1": "The bank, with the consent of the client, will automatically write off funds to pay for various services in a timely manner, accurate to the penny.",
+          "text2": "Using the automatic payment service, it is enough to set up the frequency of payments for certain accounts so as not to go through the procedure every time.",
+          "sub_text": "Important! To be able to use this service, it is necessary that there are funds on the account or in the user's personal account to make a payment or transfer in the required amount."
+     },
+     "platform": {
+          "title": "All payments and transfers on one platform!",
+          "text": "Make transactions with cards, payment for services and transfers from any device."
+     },
+     "questions": {
+          "title": "Answers to your questions",
+          "1": {
+               "title": "Can I have multiple currencies in my Mastercard account?",
+               "text": "Using the automatic payment service, it is enough to set up the frequency of payments for certain accounts so as not to go through the procedure every time."
+          }
+     },
+     "footer": {
+          "support": "Support phones:",
+          "developers": "Developers",
+          "blog": "Blog",
+          "jobs": "Jobs",
+          "privacy": "Privacy Policy",
+          "offer": "Public offer",
+          "license": "Payment organization license",
+          "network": "License for data network services",
+          "eco": "Environmental policy"
+     }
+}

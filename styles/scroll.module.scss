@@ -1,0 +1,34 @@
+@import "./utils/color.scss";
+
+.scrollTOp {
+    position: fixed;
+    bottom: 2%;
+    right: 5%;
+    cursor: pointer;
+    z-index: 55;
+    height: 40px;
+    width: 40px;
+    border: 2px solid $violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: $violet;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: all 0.2s ease;
+    visibility: hidden;
+    opacity: 0;
+    svg {
+        transform: rotate(180deg);
+    }
+    &:hover {
+        background-color: $violet;
+        color: white;
+    }
+    &_active {
+        bottom: 5%;
+        opacity: 1;
+        visibility: visible;
+    }
+}

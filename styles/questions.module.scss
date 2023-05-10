@@ -1,0 +1,99 @@
+@import "./utils/color.scss";
+
+.questions {
+     background-color: $violet;
+     padding: 45px;
+     @media (max-width: 991px) {
+          padding: 0;
+          padding-top: 40px;
+          padding-bottom: 20px;
+     }
+     @media (max-width: 576px) {
+          padding-top: 30px;
+          padding-bottom: 10px;
+     }
+     h3 {
+          font-size: 36px;
+          font-weight: 600;
+          line-height: 44px;
+          color: #fff;
+          text-align: center;
+          margin-bottom: 45px;
+          @media (max-width: 991px) {
+               font-size: 30px;
+               line-height: 36px;
+               margin-bottom: 30px;
+          }
+          @media (max-width: 576px) {
+               font-size: 22px;
+               line-height: 27px;
+               margin-bottom: 20px;
+          }
+     }
+     &_item {
+          background-color: #fff;
+          border-radius: 8px;
+          margin-bottom: 35px;
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+          @media (max-width: 991px) {
+               margin-bottom: 20px;
+          }
+          &_head,
+          &_head_active {
+               display: flex;
+               align-items: center;
+               justify-content: space-between;
+               padding: 26px 34px;
+               padding-right: 26px;
+               transition: padding 0.2s ease;
+               cursor: pointer;
+               h5 {
+                    color: $black;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 0;
+                    padding-right: 15px;
+                    @media (max-width: 991px) {
+                         padding-right: 5px;
+                    }
+                    @media (max-width: 576px) {
+                         font-size: 14px;
+                         line-height: 21px;
+                    }
+               }
+               img {
+                    transition: transform 0.2s ease;
+                    width: 15px;
+               }
+               @media (max-width: 991px) {
+                    padding: 15px;
+               }
+          }
+          &_head_active {
+               padding-bottom: 16px;
+               img {
+                    transform: rotate(180deg);
+               }
+          }
+          &_body {
+               overflow: hidden;
+               transition: height 0.2s ease;
+               p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    padding-left: 34px;
+                    padding-right: 26px;
+                    padding-bottom: 26px;
+                    margin: 0;
+                    @media (max-width: 576px) {
+                         font-size: 14px;
+                         line-height: 21px;
+                         padding: 15px;
+                         padding-top: 0;
+                    }
+               }
+          }
+     }
+}

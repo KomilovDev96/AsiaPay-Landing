@@ -1,0 +1,121 @@
+@import "./utils/color.scss";
+
+.manual {
+     padding: 60px 0;
+     width: fit-content;
+     margin: auto;
+     position: relative;
+     @media (max-width: 991px) {
+          padding: 40px 0;
+     }
+     @media (max-width: 576px) {
+          padding: 30px 0;
+     }
+     &_info {
+          color: $black;
+          @media (max-width: 991px) {
+               text-align: center;
+          }
+          h3 {
+               font-size: 36px;
+               font-weight: 600;
+               line-height: 54px;
+               margin-bottom: 30px;
+               @media (max-width: 991px) {
+                    font-size: 30px;
+                    line-height: 45px;
+                    margin-bottom: 20px;
+               }
+               @media (max-width: 576px) {
+                    font-size: 22px;
+                    line-height: 33px;
+                    text-align: center;
+                    margin-bottom: 10px;
+               }
+          }
+          h4 {
+               font-size: 24px;
+               font-weight: 600;
+               line-height: 29px;
+               margin-bottom: 30px;
+               @media (max-width: 991px) {
+                    font-size: 24px;
+                    line-height: 29px;
+                    margin-bottom: 15px;
+               }
+               @media (max-width: 576px) {
+                    font-size: 18px;
+                    line-height: 22px;
+               }
+          }
+          p {
+               font-size: 16px;
+               font-weight: 400;
+               line-height: 24px;
+               max-width: 610px;
+               @media (max-width: 991px) {
+                    font-size: 16px;
+                    line-height: 24px;
+                    max-width: 577px;
+                    margin: auto;
+                    margin-bottom: 15px;
+               }
+               @media (max-width: 576px) {
+                    font-size: 14px;
+                    line-height: 21px;
+               }
+          }
+          &_box {
+               padding: 25px;
+               background-color: $violet;
+               border-radius: 16px;
+               max-width: 668px;
+               margin-top: 35px;
+               @media (max-width: 991px) {
+                    max-width: unset;
+                    margin-top: 30px;
+               }
+               @media (max-width: 576px) {
+                    padding: 20px 10px;
+                    margin-top: 15px;
+               }
+               p {
+                    margin-bottom: 0 !important;
+                    max-width: unset !important;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 27px;
+                    color: white;
+                    width: 100%;
+                    @media (max-width: 991px) {
+                         font-size: 18px;
+                         line-height: 27px;
+                    }
+                    @media (max-width: 576px) {
+                         font-size: 14px;
+                         line-height: 21px;
+                    }
+               }
+          }
+     }
+     &_image {
+          margin-left: 120px;
+          @media (max-width: 991px) {
+               width: fit-content;
+               margin: auto;
+               margin-top: 30px;
+          }
+          @media (max-width: 576px) {
+               max-width: 175px;
+          }
+     }
+     &_logo {
+          position: absolute;
+          right: -440px;
+          bottom: -460px;
+          z-index: -1;
+          @media (max-width: 991px) {
+               display: none;
+          }
+     }
+}
