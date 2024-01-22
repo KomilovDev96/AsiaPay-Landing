@@ -54,7 +54,10 @@ const Footer = () => {
                          </div>
                     </div>
                </div>
-          </div>
+               <div style={{ display: "flex", justifyContent: "center"}}>
+                    <p><a href="https://komilovstudio.uz/" style={{ marginLeft: "4px", textDecoration: "underline" }}><b>Разработала команда Komilovstudio</b></a></p>
+               </div>
+          </div >
      )
 }
 
